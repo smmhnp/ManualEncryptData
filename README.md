@@ -1,3 +1,38 @@
+# Laravel Encryption Demo 🔐
+
+پروژه‌ای ساده و آموزشی برای رمزنگاری و رمزگشایی داده‌ها در Laravel با استفاده از کلاس `Crypt`. در این پروژه، اطلاعات کاربران به صورت دستی برای هر ستون رمز می‌شوند و هنگام نمایش رمزگشایی می‌شوند.
+
+---
+
+## 📌 ویژگی‌ها
+
+- رمزنگاری فیلدهای حساس 
+- ذخیره امن رمز عبور با `Hash::make()`
+- رمزگشایی اطلاعات هنگام نمایش
+- نمایش همه کاربران رمزگشایی شده در صفحه مجزا
+
+---
+
+## 🛠 تکنولوژی‌ها
+
+- Laravel 12
+- PHP 8+
+- SQLite / MySQL (قابل تنظیم)
+- Blade Template Engine
+
+---
+
+## 🚀 شروع به کار
+
+### نصب و راه‌اندازی:
+
+git clone https://github.com/USERNAME/laravel-encryption-demo.git
+cd laravel-encryption-demo
+composer install
+cp .env.example .env
+php artisan key:generate
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
